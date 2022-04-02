@@ -1,2 +1,1 @@
-# OpenCv_Practise
-Python codes for pracise
+# /c/INEURON/DL/OpenCV_Practise/OpenCv_Practise

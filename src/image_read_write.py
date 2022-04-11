@@ -14,4 +14,4 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 # The function cv2.imwrite() is used to write an image.
-cv2.imwrite('grayscale.jpg',img_grayscale)
+cv2.imwrite('output_images/grayscale.jpg',img_grayscale)

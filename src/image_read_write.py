@@ -1,5 +1,13 @@
 # import the cv2 library
 import cv2
+import os
+from pathlib import Path
+
+# get the image path to be read
+filepath = str(Path("../images/Taj-Mahal.jpg"))
+
+# create folder if not present already to store any images from the script
+os.makedirs('output_images', exist_ok=True)
 
 # The function cv2.imread() is used to read an image.
 img_grayscale = cv2.imread('../images/Taj-Mahal.jpg',0)
